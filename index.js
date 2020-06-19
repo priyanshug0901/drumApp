@@ -6,7 +6,8 @@ for (var i=0;i<=6;i++)
 {
 document.querySelectorAll(".drum")[i].addEventListener("click",function(){
 	// alert("ready to play drum");
-	  console.log(this.style.color='white');
+	setTimeout(function(){
+	  console.log(this.style.color='white');},100);
 
 	var buttoninnerHTML=this.innerHTML;
 
